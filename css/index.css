@@ -70,7 +70,38 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+body {
+    padding-top: 20px;
+}
+.menu {
+    display: flex;
+    flex-wrap : wrap;
+}
 
+.logo {
+    display: flex;
+    width: 157px;
+    height: 40px;
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 643px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.header-img {
+    width: 100%;
+    padding: 40px 0 25px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -126,25 +157,6 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
 .middle-content .boxes .boxOne {
     background: teal;
 }
@@ -183,4 +195,23 @@ footer nav a {
 
 .middle-content .boxes .boxTen{
     background: dodgerblue;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
