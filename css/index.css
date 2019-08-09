@@ -135,7 +135,6 @@ nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -214,4 +213,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.process {
+    padding: 10px;
+    width: 400px;
+}
+
+.teamwork, .intro-about {
+    padding: 20px;
+}
+button {
+    font-size: 16px;
+    background: white;
+    border: 2px solid black;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 600ms;
+}
+button:hover {
+    background: blue;
+    border: 2px solid blue;
+    color: white;
+    transform: scale(1.1);
+}
+
+h4, p {
+    padding: 10px 0 10px;
+}
+
+hr {
+    border: .5px dashed black;
+}
+
+.process img {
+    width: 97%;
+    padding-top: 20px;
 }
