@@ -144,3 +144,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.middle-content .boxes .boxOne {
+    background: teal;
+}
+
+.middle-content .boxes .boxTwo{
+    background: gold;
+}
+
+.middle-content .boxes .boxThree{
+    background: cadetblue;
+}
+
+.middle-content .boxes .boxFour{
+    background: coral;
+}
+
+.middle-content .boxes .boxFive{
+    background: crimson;
+}
+
+.middle-content .boxes .boxSix{
+    background: forestgreen;
+}
+
+.middle-content .boxes .boxSeven{
+    background: darkorchid;
+}
+
+.middle-content .boxes .boxEight{
+    background: hotpink;
+}
+
+.middle-content .boxes .boxNine{
+    background: indigo;
+}
+
+.middle-content .boxes .boxTen{
+    background: dodgerblue;
+}
